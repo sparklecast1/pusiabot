@@ -65,13 +65,13 @@ def textMessage(bot, update):
 start_command_handler = CommandHandler('start', startCommand)
 stop_command_handler = CommandHandler('stop', stopCommand)
 cute_command_handler = CommandHandler('cute', cuteCommand)
-pic_command_handler = CommandHandler('pic', picCommand)
+#pic_command_handler = CommandHandler('pic', picCommand)
 text_message_handler = MessageHandler(Filters.text, textMessage)
 # Добавляем хендлеры в диспетчер
 dispatcher.add_handler(start_command_handler)
 dispatcher.add_handler(stop_command_handler)
 dispatcher.add_handler(cute_command_handler)
-dispatcher.add_handler(pic_command_handler)
+#dispatcher.add_handler(pic_command_handler)
 dispatcher.add_handler(text_message_handler)
 # Начинаем поиск обновлений
 updater.start_polling(clean=True)
