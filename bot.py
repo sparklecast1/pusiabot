@@ -71,19 +71,11 @@ def textMessage(bot, update):
         print message
         roll = random.randrange(1,4)
         print roll
-        if roll == 1:
-           bot.send_message(chat_id=update.message.chat_id, text='Братан, @' + str(user[1]) + ', ну ты в натуре лох')
-
-        if roll == 2:
-           bot.send_message(chat_id=update.message.chat_id, text='Я видела много тупых, но настолько тупых как @' + str(user[1]) + ', еще ни разу')
-
-        if roll == 3:
-           bot.send_message(chat_id=update.message.chat_id, text='Нахуй пошел отсюда, @' + str(user[1]) + ' !')
-
-        if roll == 4:
-           bot.send_message(chat_id=update.message.chat_id, text='Ебать ты тупой, @' + str(user[1]) + ' , просто эталонный дебил')
-
-
+    #Del
+    #Del
+    #Del
+    #Del
+    
     if start:
         print('вхождение в условие старта')
         if response:
