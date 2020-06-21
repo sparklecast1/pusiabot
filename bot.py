@@ -84,20 +84,8 @@ def textMessage(bot, update):
         #если не понимает то отвечает подобное
         else:
             bot.send_message(chat_id=update.message.chat_id, text='Я Вас не совсем понял!')
-
-    #roll = random.randrange(50)
-    #print(number)
-
-    #был функционал когда она случайно фыркала в чатике
-    #if number == 25:
-    #    bot.send_message(chat_id=update.message.chat_id, text='Фыр!')
-    #else:
-    #    bot.send_message(chat_id=update.message.chat_id, text='Фыр!')
-    
-    
-    
-    #debug 
-    #print update.message.text
+ 
+    # Debug
     message = u"Получил сообщение: {}".format(unicode(update.message.text))
     print message
     #debug
