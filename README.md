@@ -1,2 +1,2 @@
 # pusiabot
-пуся бот
+Nothing serious, just for fun
